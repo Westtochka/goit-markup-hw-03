@@ -97,6 +97,8 @@ ul {margin: 0;padding-left: 0;}
     border-bottom-style: solid;
     border-bottom-color: #E7E9FC;
 }
+
+
 /*.menu{}*/
 
 .menu-link{    
@@ -166,7 +168,7 @@ ul {margin: 0;padding-left: 0;}
     margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
-
+    
     line-height: 1.5;
     
     letter-spacing: 0.04em;
@@ -219,6 +221,7 @@ padding-top: 100px;
     background-color: var(--primary-text-color);
 
 }
+
 .hero-tittle{   
     font-size: 56px;
     line-height: 1.07;
@@ -227,7 +230,7 @@ padding-top: 100px;
 }
 .box-hero{
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     max-width: 540px;
 }
 /*.tools{
@@ -347,6 +350,8 @@ background-color: #F4F4FD ;
     cursor: pointer;
 
     justify-content:center;
+
+    padding: 12px 24px;
 }
 
 
@@ -369,6 +374,8 @@ background-color: #F4F4FD ;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--secondary-text-color);
+
+    padding-top: 8px;
     
 }
 .mix-box-portfolio{
@@ -386,13 +393,19 @@ background-color: #F4F4FD ;
 
 .first-button{
     background-color: #404BBF;
-    color: var(--white-font);    
+    color: var(--white-font); 
+    border-color: #404BBF;
+    border-radius: 4px;  
+
+   
 }
 
 .primary-theme-button{
     background-color: #F4F4FD;
     color: var(--link-background-color);
-    
+    border-color: #E7E9FC;
+    border-radius: 4px;
+
 }
 
 .secondary-link-image{
@@ -413,8 +426,12 @@ background-color: #F4F4FD ;
 }
 .container .flex-container{
     padding-bottom: 120px;
+    padding-top: 32px;
 }
 
+.title-card{
+    padding-top:32px;
+}
 /* ================/PORTFOLIO=========== */
 
 /* ================Скрытый заголовок! Не редактировать=========== */
